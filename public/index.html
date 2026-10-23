@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A personal shelf for books, ratings, and thoughtful reviews.">
+  <title>ReadShelf · Book Reviews</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <header class="site-header"><a class="brand" href="/" aria-label="ReadShelf home"><span class="brand-symbol" aria-hidden="true">R</span>ReadShelf<span class="brand-dot">.</span></a><span class="header-label">YOUR READING JOURNAL</span><button id="add-book" class="btn btn-primary" type="button">+ Add book</button></header>
+  <main class="main-container">
+    <section class="intro"><div><p class="eyebrow">A LITTLE SPACE FOR GOOD BOOKS</p><h1>Every book.<br><em>A new perspective.</em></h1><p class="intro-copy">Keep the books you read, and the thoughts they leave behind.</p></div><div class="shelf-stats" aria-label="Shelf statistics"><div><strong id="book-count">0</strong><span>books on your shelf</span></div><div><strong id="review-count">0</strong><span>reviews written</span></div></div></section>
+    <section aria-labelledby="shelf-title"><div class="section-heading"><h2 id="shelf-title">Your bookshelf</h2><span>ဖတ်ပါ။ တွေးပါ။ Review ရေးပါ။</span></div><div id="page-error" role="alert" class="error-box" hidden></div><div id="book-grid" class="book-grid" aria-live="polite" aria-busy="true"><p class="empty-copy">Loading your bookshelf…</p></div></section>
+    <footer class="site-footer"><span>ReadShelf · Book Review Project</span><span>Made for your next chapter.</span></footer>
+  </main>
+
+  <dialog id="book-dialog" aria-labelledby="book-form-title" class="modal"><div class="modal-top"><h2 id="book-form-title">Add a book</h2><button type="button" data-close="book-dialog" class="icon-button" aria-label="Close book form">×</button></div><p class="modal-intro">Give your next read a place on the shelf.</p><form id="book-form"><label for="book-title">Book title <span>*</span></label><input id="book-title" name="title" required maxlength="150" placeholder="e.g. Frankenstein"><label for="book-author">Author <span>*</span></label><input id="book-author" name="author" required maxlength="100" placeholder="e.g. Mary Shelley"><label for="book-description">Description <small>optional</small></label><textarea id="book-description" name="description" rows="3" maxlength="3000" placeholder="What is this book about?"></textarea><label for="book-link">စာအုပ် link <small>optional</small></label><input id="book-link" name="read_url" maxlength="2000" placeholder="https://example.com/book.pdf သို့မဟုတ် /books/my-book.pdf"><p class="field-help">ဝက်ဘ်လိပ်စာ အပြည့်အစုံထည့်ပါ။ PDF ကို public/books ထဲထည့်ထားရင် /books/book-11.pdf ကိုသုံးပါ။</p><label for="book-color">Cover color</label><select id="book-color" name="color"><option value="navy">Midnight blue</option><option value="forest">Forest green</option><option value="burgundy">Deep burgundy</option><option value="ochre">Golden ochre</option></select><p id="book-form-error" role="alert" class="form-error" hidden></p><div class="form-actions"><button type="button" data-close="book-dialog" class="btn btn-secondary">Cancel</button><button type="submit" class="btn btn-primary" id="save-book">Save book</button></div></form></dialog>
+
+  <dialog id="detail-dialog" aria-labelledby="detail-title" class="modal detail-modal"><div class="modal-top"><p class="eyebrow">ON YOUR SHELF</p><button type="button" data-close="detail-dialog" class="icon-button" aria-label="Close book details">×</button></div><div id="detail-content"></div></dialog>
+
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title" class="modal confirm-modal"><h2 id="confirm-title">Delete this item?</h2><p id="confirm-message"></p><p id="confirm-error" class="form-error" role="alert" hidden></p><div class="form-actions"><button type="button" data-close="confirm-dialog" class="btn btn-secondary">Keep it</button><button id="confirm-delete" type="button" class="btn btn-danger">Delete</button></div></dialog>
+  <div id="notification" class="notification" role="status" hidden></div>
+</body>
+</html>
