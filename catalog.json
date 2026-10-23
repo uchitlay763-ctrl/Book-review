@@ -1,0 +1,82 @@
+[
+  {
+    "title": "ငါကျူးလွန်မိတဲ့ကံတစ်ပါးဟာ မင်းပဲ",
+    "author": "မယ်ညို",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 59\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "burgundy",
+    "read_url": "/books/myay-nyo-karma.pdf",
+    "cover_url": "/covers/myay-nyo-karma.jpg"
+  },
+  {
+    "title": "ရယ်မောခြင်းအပိုင်းအစများ",
+    "author": "မင်းလူ",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 105\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "forest",
+    "read_url": "/books/min-lu-laughter.pdf",
+    "cover_url": "/covers/min-lu-laughter.jpg"
+  },
+  {
+    "title": "Business Etiquette",
+    "author": "မောင်ဆုရှင်",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 163\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "navy",
+    "read_url": "/books/business-etiquette.pdf",
+    "cover_url": "/covers/business-etiquette.jpg"
+  },
+  {
+    "title": "အောင်မြင်ကြီးပွားနည်း ၁၀၀",
+    "author": "သတိုးနွယ်",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 208\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "ochre",
+    "read_url": "/books/success-100.pdf",
+    "cover_url": "/covers/success-100.jpg"
+  },
+  {
+    "title": "ပင်လယ်ပြာနှင့် တံငါအို",
+    "author": "Ernest Hemingway · မောင်ဆုရှင် (ဘာသာပြန်)",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 177\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "burgundy",
+    "read_url": "/books/old-man-and-sea.pdf",
+    "cover_url": "/covers/old-man-and-sea.jpg"
+  },
+  {
+    "title": "ဘယ်သို့သောအကြောင်းကြောင့်",
+    "author": "ခင်နှင်းယု",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 134\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "forest",
+    "read_url": "/books/khin-hnin-yu-reason.pdf",
+    "cover_url": "/covers/khin-hnin-yu-reason.jpg"
+  },
+  {
+    "title": "ကိုယ့်ကိုယ်ကိုယ်ဦးစားပေးခြင်း",
+    "author": "မင်းခန့်",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 36\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "navy",
+    "read_url": "/books/prioritize-yourself.pdf",
+    "cover_url": ""
+  },
+  {
+    "title": "You Can Do It",
+    "author": "မင်းခန့်",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 191\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "ochre",
+    "read_url": "/books/you-can-do-it.pdf",
+    "cover_url": "/covers/you-can-do-it.jpg"
+  },
+  {
+    "title": "မင်းပြောင်းလဲနိုင်ပါတယ်",
+    "author": "မင်းခန့်",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 203\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "burgundy",
+    "read_url": "/books/you-can-change.pdf",
+    "cover_url": "/covers/you-can-change.jpg"
+  },
+  {
+    "title": "အလွဲများနှင့် လူငယ်တစ်ယောက်",
+    "author": "မင်းခန့်",
+    "description": "PDF စာအုပ် · စာမျက်နှာ 161\nအောက်က “စာအုပ်ဖတ်ရန်” ကိုနှိပ်ပြီး ဖတ်ရှုနိုင်ပါတယ်။ ဖတ်ပြီးနောက် ကိုယ့်အမြင်နဲ့ review ရေးနိုင်ပါတယ်။",
+    "color": "forest",
+    "read_url": "/books/mistakes-and-young-person.pdf",
+    "cover_url": "/covers/mistakes-and-young-person.jpg"
+  }
+]
